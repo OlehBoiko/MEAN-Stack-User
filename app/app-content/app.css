@@ -1,0 +1,16 @@
+﻿
+
+.flash-message {
+    margin-top: 20px;
+}
+.user-icon-block{
+    font-size: 5em;
+    border: 1px solid;
+    border-radius: 100%;
+    text-align: center;
+    height: 110px;
+    width: 110px;
+}
+.user-icon-block .glyphicon{
+    margin-top:14px;
+}

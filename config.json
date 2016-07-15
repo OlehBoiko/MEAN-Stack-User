@@ -1,0 +1,5 @@
+﻿{
+    "connectionString": "mongodb://localhost:27017/test",
+    "apiUrl": "http://localhost:3000/api",
+    "secret": "saf2^8!%ac13129^&sd&^^dsd6588ts^^765"
+}

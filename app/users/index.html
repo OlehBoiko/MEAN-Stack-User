@@ -1,0 +1,15 @@
+﻿<h1>All users</h1>
+<div class="form-container">
+
+<div class="row">
+    <div ng-repeat="user in vm.users" class="col-lg-2 col-md-3 col-sm-3 col-xs-6 text-center">
+        <a ui-sref="view({id: user._id})" >
+            <div class="user-icon-block center-block">
+                <span class="glyphicon glyphicon-user"></span>
+            </div>
+            <h4 >{{ user.firstName }}</h4>
+        </a>
+    </div>
+</div>
+
+</div>
